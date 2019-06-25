@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".FAB"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/map"
+              tools:context=".MapsActivity"
+              android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="280dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:text="Satelite"
+            android:visibility="gone"/>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="260dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/satelite"
+            android:backgroundTint="@color/FAB2"
+            android:visibility="gone"/>
+
+    <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="220dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:text="Hybrid"
+            android:visibility="gone"/>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="200dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/hybrid"
+            android:backgroundTint="@color/FAB2"
+            android:visibility="gone"/>
+
+    <TextView
+            android:id="@+id/text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="160dp"
+            android:layout_gravity="bottom|start"
+            android:layout_marginLeft="90dp"
+            android:textStyle="bold"
+            android:text="Terrain"
+            android:visibility="gone"/>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginBottom="140dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/terrain"
+            android:backgroundTint="@color/FAB2"
+            android:visibility="gone"/>
+
+        <TextView
+                android:id="@+id/text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginLeft="90dp"
+                android:textStyle="bold"
+                android:text="Normal"
+                android:visibility="gone"/>
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginBottom="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/normal"
+                android:backgroundTint="@color/FAB2"
+                android:visibility="gone"/>
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/FAB2"
+            android:src="@drawable/gear"/>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
